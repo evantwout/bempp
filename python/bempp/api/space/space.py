@@ -159,7 +159,11 @@ def function_space(grid, kind, order, domains=None, closed=True, strictly_on_seg
         "B-P": Polynomial spaces on barycentric grids.
         "B-DP": Polynomial discontinuous spaces on barycentric grids.
         "DUAL": Dual space on dual grid (only implemented for constants).
-        "RT": Raviart-Thomas Vector spaces.
+        "RT": Raviart-Thomas vector spaces.
+        "RWG": Rao-Wilton-Glisson vector spaces.
+        "B-RT": Raviart-Thomas vector spaces on barycentric grids.
+        "B-RWG": Rao-Wilton-Glisson vector spaces on barycentric grids.
+        "BC": Buffa-Christiansen vector spaces.
 
     order : int
         The order of the space, e.g. 0 for piecewise const, 1 for
