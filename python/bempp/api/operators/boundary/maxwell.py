@@ -110,7 +110,7 @@ def electric_field(domain, range_, dual_to_range,
         return efie_op
 
 def calderon_electric_field(grid, wave_number, parameters=None):
-    """Return a pair (E^2, E) of the squared EFIE operator E^2 and E itself"""
+    """Return a pair (E^2, E) of the squared EFIE operator E^2 and E itself, given on the BC-space"""
 
     import bempp.api
 
